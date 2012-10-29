@@ -9,7 +9,7 @@ Source0:	http://xorg.freedesktop.org/releases/individual/app/mkfontdir-%{version
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	pkgconfig
+BuildRequires:	pkg-config
 BuildRequires:	xorg-util-macros
 Requires:	xorg-app-mkfontscale
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
